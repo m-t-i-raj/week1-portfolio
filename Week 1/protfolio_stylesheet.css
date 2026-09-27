@@ -1,0 +1,160 @@
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F3864;
+    align-items: center;
+    
+}
+.heading_1{
+    color:whitesmoke ;
+    font-size: xx-large;
+    
+    
+}
+.navi{
+    list-style: none;
+    display: flex;
+}
+.navi a {
+    text-decoration: none;
+    color: #B5D4F4;
+    font-size: large;
+    font-weight: 400;
+    padding:10px;
+    margin: 0;
+    padding-top: 10px;
+
+}
+.navi a:hover{
+    color: white;
+
+}
+main{
+    background-color: #F4F7FB;
+}
+.hero{
+    text-align: center;
+}
+.btn{
+    border-radius: 60px;
+    background-color: #1100fd;
+    padding: 15px 25px;
+    display: inline-block;
+    color: rgb(234, 233, 238);
+    text-decoration: none;
+    margin: 6px;
+    
+}
+.btn:hover{
+    background-color:#201b5e;
+}
+img{
+   border-radius: 50%;
+   object-fit: cover;
+}
+#about{
+    max-width:fit-content;
+    border-color: black;
+    border:2px solid black ;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(217, 226, 234);
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+#about p{
+    font-size: larger;
+}
+
+#skills{
+    display: block;
+    border-color: black;
+    border:2px solid black ;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(217, 226, 234);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+#projects{
+    display: block;
+    border-color: black;
+    border:2px solid black ;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(217, 226, 234);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+#contact{
+    display: block;
+    border-color: black;
+    border:2px solid black ;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(217, 226, 234);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+.card{
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #9bb4e4;
+    padding:20px 30px;
+}
+.pj{
+    text-align: center;
+    display:inline-block;
+    border:3px solid #004c6c;
+    width:auto;
+    border-radius: 20px;
+    background-color:#6d8dc844 ;
+}
+
+#contact div{
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+#contact legend{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+#contact label{
+    font-style: italic;
+    flex-shrink: 0;
+    width:50px
+}
+#contact input, #contact textarea{
+    border-radius: 10px;
+    cursor:inherit;
+}
+.form-contact{
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+
+}
+footer{
+    background-color: #111827;
+    text-align: center;
+    
+}
+
+.p_foot{
+    font-size: x-large;
+    color: aliceblue;
+    
+}
+footer a{
+    color: #a6c2e7;
+}
+body{
+    margin: 0;
+}
